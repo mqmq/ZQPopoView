@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary      = "popoView"
 
   s.description  = <<-DESC
-       循环滚动播放图片,自动播放,手动播放
+       抽屉弹出popoView
                    DESC
 
   s.homepage     = "https://github.com/mqmq/ZQPopoView.git"
