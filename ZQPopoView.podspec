@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                 抽屉弹窗
+                 抽屉弹窗popoView
                    DESC
 
   s.homepage     = "https://github.com/mqmq/ZQPopoView"
@@ -73,7 +73,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/mqmq/ZQPopoView.git", :commit => "fa0e5e8feed089bbc5e833c643a92dee50d18bad" }
+  s.source       = { :git => "https://github.com/mqmq/ZQPopoView.git", :commit => "fa0e5e8feed089bbc5e833c643a92dee50d18bad", :tag => "#{s.version}"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
