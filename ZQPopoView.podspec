@@ -73,7 +73,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/mqmq/ZQPopoView.git", :commit => "fa0e5e8feed089bbc5e833c643a92dee50d18bad", :tag => "#{s.version}"}
+  s.source       = { :git => "https://github.com/mqmq/ZQPopoView.git", :tag => "#{s.version}"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
