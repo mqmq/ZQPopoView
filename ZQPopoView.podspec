@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.author       = { "ZQQ" => "z541833048@163.com" }
   s.platform     = :ios,'9.0'
 
-  s.source       = { :git => "https://github.com/mqmq/ZQPopoView.git", :tag => "v#{s.version}" }
+  s.source       = { :git => "https://github.com/mqmq/ZQPopoView.git", :tag => "#{s.version}" }
   s.source_files = "ZQPopoView.swift"
   s.framework    = "UIKit"
   s.requires_arc = true
